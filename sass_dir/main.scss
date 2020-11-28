@@ -1,64 +1,13 @@
-body {
-    margin: 0%;
-    padding: 0%;
-    width: 100vw;
-    height: 100vh;
-    color: black;
-    font-family: Chalkboard, sans-serif;
-}
 .navBar {
-    background-color: rgba(10, 80, 129, 1);
-    position: fixed;
-    top: 0px;
-    width: 100vw;
-    padding-left: 1rem;
-    padding-bottom: .5rem;
-    height: 1rem;
-    box-shadow: -5px 3px 15px black;
-    a {
-        color: rgba(5,5,25, 0.9);
-        text-decoration: none;
-        padding: .2rem;
-        &:hover {
-            color: rgba(115,205,255, 0.5);
-            text-shadow: 0px 0px 5px rgba(55,55,55,1.0);
-        }
-    }
+  top: 0px;
+  width: 100vw;
+  height: 10rem;
+  box-shadow: 1px 1px 10px black;
+  a {
+      text-decoration: none;
+  }
 }
+
 .current {
-    text-shadow: 0px 0px 5px rgba(255,255,255,1.0);
-    color: rgba(10, 80, 129, 1);
-}
-
-.contentMargin {
-    box-shadow: inset 0px 0px 15px black;
-    padding-bottom: 2rem;
-    .mainContent {
-        animation: fade_in 1.5s;
-        margin: 2rem;
-    }
-}
-
-.footerBar {
-    position: fixed;
-    bottom: 0px;
-    width: 100vw;
-    background-color: rgba(10, 80, 129, 1);
-    box-shadow: 0px -3px 15px black;
-}
-
-
-@font-face{
-    font-family: Chalkboard;
-    src:local("../fonts/ChalkboardSE.ttc")
-}
-
-// ANIMATION KEYFRAMES
-@keyframes fade_in{
-    0%{
-        opacity: 0%;
-    }
-    100%{
-        opacity: 1;
-    }
+    color: green;
 }
