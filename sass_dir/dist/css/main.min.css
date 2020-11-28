@@ -1,83 +1,14 @@
-body {
-  margin: 0%;
-  padding: 0%;
-  width: 100vw;
-  height: 100vh;
-  color: black;
-  font-family: Chalkboard, sans-serif;
-}
-
 .navBar {
-  background-color: #0a5081;
-  position: fixed;
   top: 0px;
   width: 100vw;
-  padding-left: 1rem;
-  padding-bottom: 1em;
-  padding-top: .8em;
-  height: 1rem;
-  box-shadow: -5px 3px 15px black;
+  height: 10rem;
+  box-shadow: 1px 1px 10px black;
 }
 
 .navBar a {
-  color: rgba(5, 5, 25, 0.9);
   text-decoration: none;
-  padding: .4rem;
-}
-
-.navBar a:hover {
-  color: rgba(115, 205, 255, 0.5);
-  text-shadow: 1px 1px 8px #000000;
 }
 
 .current {
-  text-shadow: 0px 0px 5px white;
-  color: #0a5081;
-}
-
-.contentMargin {
-/*   box-shadow: inset 0px 0px 15px black; */
-  padding-bottom: 2rem;
-}
-
-.contentMargin .mainContent {
-  animation: fade_in 1.5s;
-  margin: 2rem;
-}
-
-.footerBar {
-  padding-top: .5em;
-  padding-bottom: 1em;
-  position: fixed;
-  bottom: 0px;
-  width: 100vw;
-  background-color: #0a5081;
-  box-shadow: 0px -3px 15px black;
-}
-.footBar a {
-  color: rgba(5, 5, 25, 0.9);
-  padding: .4rem;
-}
-.footerLink {
-  padding: 2rem;
-  margin-top: .5rem;
-  text-decoration: none;
-  color: cornsilk;
-  text-shadow: 2px 1px 3px black
-}
-.footerLink:hover {
-  color:greenyellow
-}
-@font-face {
-  font-family: Chalkboard;
-  src: local("../fonts/ChalkboardSE.ttc");
-}
-
-@keyframes fade_in {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 1;
-  }
+  color: green;
 }
