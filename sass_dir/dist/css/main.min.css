@@ -44,6 +44,12 @@ body {
   margin: 2rem;
 }
 
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+}
+
 @keyframes fade_in {
   0% {
     opacity: 0%;
