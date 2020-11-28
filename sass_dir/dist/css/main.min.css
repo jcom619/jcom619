@@ -50,6 +50,11 @@ footer {
   width: 100vw;
 }
 
+@font-face {
+  font-family: Chalkboard;
+  src: local("../fonts/chalkboard.ttc");
+}
+
 @keyframes fade_in {
   0% {
     opacity: 0%;

@@ -46,6 +46,11 @@ footer {
 }
 
 
+@font-face{
+    font-family: Chalkboard;
+    src:local("../fonts/chalkboard.ttc")
+}
+
 // ANIMATION KEYFRAMES
 @keyframes fade_in{
     0%{
