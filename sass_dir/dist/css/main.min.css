@@ -1,83 +1,95 @@
 body {
-  margin: 0%;
-  padding: 0%;
-  width: 100vw;
-  height: 100vh;
-  color: black;
-  font-family: Chalkboard, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url(../../../images/4b6e957e8cc8ce0a662dd6bd72b9e6217d1f2709190d7e4c1a1dd791104b5052.JPG) no-repeat;
+    box-shadow: inset 0 0 40px rgb(10, 9, 9), inset 0 0 20px rgb(61, 1, 1);
+    background-attachment: fixed;
+    bottom: 0;
 }
 
 .navBar {
-  background-color: #0a5081;
-  position: fixed;
-  top: 0px;
-  width: 100vw;
-  padding-left: 1rem;
-  padding-bottom: 1em;
-  padding-top: .8em;
-  height: 1rem;
-  box-shadow: -5px 3px 15px black;
+    background-color: #383c3ffc;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    padding-left: 1rem;
+    padding-bottom: 1em;
+    padding-top: .8em;
+    height: 1rem;
+    box-shadow: -5px 3px 15px black;
+    border-bottom: 2px solid red;
 }
 
 .navBar a {
-  color: rgba(5, 5, 25, 0.9);
-  text-decoration: none;
-  padding: .4rem;
+    color: rgba(5, 5, 25, 0.9);
+    text-decoration: none;
+    padding: .4rem;
 }
 
 .navBar a:hover {
-  color: rgba(115, 205, 255, 0.5);
-  text-shadow: 1px 1px 8px #000000;
+    color: rgba(115, 205, 255, 0.5);
+    text-shadow: 1px 1px 8px #000000;
 }
 
 .current {
-  text-shadow: 0px 0px 5px white;
-  color: #0a5081;
+    text-shadow: 0px 0px 5px white;
+    color: #585c5f;
 }
 
 .contentMargin {
-/*   box-shadow: inset 0px 0px 15px black; */
-  padding-bottom: 2rem;
+    /*   box-shadow: inset 0px 0px 15px black; */
+    padding-bottom: 2rem;
 }
 
 .contentMargin .mainContent {
-  animation: fade_in 1.5s;
-  margin: 2rem;
+  color: #f5f10a81;
+    text-shadow: 1px 1px 1px rgba(247, 252, 255, 0.618), -1px 0px 1px rgba(144, 146, 120, 0.631), -1px -1px 1px rgb(10, 6, 6), 0 -1px 10px rgba(0, 0, 0, 1);
+    animation: fade_in 2.5s;
+    margin: 2rem;
+    font-size:20px
 }
 
 .footerBar {
-  padding-top: .5em;
-  padding-bottom: 1em;
-  position: fixed;
-  bottom: 0px;
-  width: 100vw;
-  background-color: #0a5081;
-  box-shadow: 0px -3px 15px black;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #404244;
+    box-shadow: 0px -3px 15px black;
+    border-top: 2px solid red;
 }
+
 .footBar a {
-  color: rgba(5, 5, 25, 0.9);
-  padding: .4rem;
+    color: rgba(5, 5, 25, 0.9);
+    padding: .4rem;
 }
+
 .footerLink {
-  padding: 2rem;
-  margin-top: .5rem;
-  text-decoration: none;
-  color: cornsilk;
-  text-shadow: 2px 1px 3px black
+    padding: 2rem;
+    margin-top: .5rem;
+    text-decoration: none;
+    color: cornsilk;
+    text-shadow: 2px 1px 3px black;
 }
+
 .footerLink:hover {
-  color:greenyellow
+    color: greenyellow;
 }
+
 @font-face {
-  font-family: Chalkboard;
-  src: local("../fonts/ChalkboardSE.ttc");
+    font-family: Chalkboard;
+    src: local("../fonts/ChalkboardSE.ttc");
 }
 
 @keyframes fade_in {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
